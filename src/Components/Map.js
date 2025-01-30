@@ -8,11 +8,13 @@ import {
 import parks from "../parks.json";
 import './main.css';
 
+//determines how big the map is
 const containerStyle = {
   width: "100%",
   height: "600px",
 };
 
+//determines where the map opens to
 const center = {
   lat: 39.8283,
   lng: -98.5795, 
@@ -24,27 +26,33 @@ const MapComponent = () => {
   const [selectedPark, setSelectedPark] = useState(null);
   const [selectedState, setSelectedState] = useState("All");
 
+  //populates the dropdown with the states
   const states = ["All", ...new Set(parks.map((park) => park.state))];
 
+  //filter function
   const filteredParks =
     selectedState === "All"
       ? parks
       : parks.filter((park) => park.state === selectedState);
 
   return (
+    //what is seen on screen
     <>
       <header className="header">
         <h1 className="">GIS Mapping Module</h1>
       </header>
 
+      {/* loads the map into the app */}
       <LoadScript googleMapsApiKey={GOOGLE_MAPS_API_KEY}>
         <div style={{ marginBottom: "10px", textAlign: "center" }}>
+          {/* dropdown filter */}
           <label htmlFor="stateFilter">Filter by State: </label>
           <select
             id="stateFilter"
             value={selectedState}
             onChange={(e) => setSelectedState(e.target.value)}
           >
+            {/* maps all of the states from the parks.json */}
             {states.map((state) => (
               <option key={state} value={state}>
                 {state}
@@ -53,7 +61,9 @@ const MapComponent = () => {
           </select>
         </div>
 
+            {/* GoogleMap is the component that holds the map. The properties passed into it determine the zoom, center, and size of the map */}
         <GoogleMap mapContainerStyle={containerStyle} center={center} zoom={4}>
+          {/* set the markers */}
           {filteredParks.map((park) => (
             <Marker
               key={park.id}
@@ -63,6 +73,7 @@ const MapComponent = () => {
           ))}
 
           {selectedPark && (
+            // InfoWindow is the popup that displays when a marker is selected
             <InfoWindow
               position={{ lat: selectedPark.lat, lng: selectedPark.lng }}
               onCloseClick={() => setSelectedPark(null)}

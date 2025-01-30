@@ -6,6 +6,7 @@ const MarkerComponent = ({ marker }) => {
 
   return (
     <>
+    {/* Sets the markers at the latitude and longitude. Also Opens the popup when clicked */}
       <Marker
         position={{ lat: marker.lat, lng: marker.lng }}
         onClick={() => setIsOpen(true)}
@@ -13,9 +14,11 @@ const MarkerComponent = ({ marker }) => {
       {isOpen && (
         <InfoWindow
           position={{ lat: marker.lat, lng: marker.lng }}
+          // closes the popup
           onCloseClick={() => setIsOpen(false)}
         >
           <div>
+            {/* displays info  */}
             <h2>{marker.name}</h2>
             <p>{marker.description}</p>
           </div>
