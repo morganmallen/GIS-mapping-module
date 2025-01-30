@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "Yellowstone National Park",
+    "lat": 44.4280,
+    "lng": -110.5885,
+    "description": "First national park in the U.S. known for geothermal features.",
+    "state": "Wyoming"
+  },
+  {
+    "id": 2,
+    "name": "Yosemite National Park",
+    "lat": 37.8651,
+    "lng": -119.5383,
+    "description": "Famous for its waterfalls, granite cliffs, and giant sequoias.",
+    "state": "California"
+  },
+  {
+    "id": 3,
+    "name": "Grand Canyon National Park",
+    "lat": 36.1069,
+    "lng": -112.1129,
+    "description": "A steep-sided canyon carved by the Colorado River.",
+    "state": "Arizona"
+  },
+  {
+    "id": 4,
+    "name": "Great Smoky Mountains National Park",
+    "lat": 35.6538,
+    "lng": -83.5070,
+    "description": "Known for its biodiversity, mist-covered mountains, and Appalachian culture.",
+    "state": "Tennessee"
+  },
+  {
+    "id": 5,
+    "name": "Zion National Park",
+    "lat": 37.2975,
+    "lng": -113.4897,
+    "description": "Known for its steep red cliffs and Zion Canyon.",
+    "state": "Utah"
+  },
+  {
+    "id": 6,
+    "name": "Rocky Mountain National Park",
+    "lat": 40.3428,
+    "lng": -105.6836,
+    "description": "Known for its majestic mountain views, alpine lakes, and wildlife.",
+    "state": "Colorado"
+  },
+  {
+    "id": 7,
+    "name": "Acadia National Park",
+    "lat": 44.3386,
+    "lng": -68.2733,
+    "description": "Famous for its coastal beauty and diverse ecosystems.",
+    "state": "Maine"
+  },
+  {
+    "id": 8,
+    "name": "Glacier National Park",
+    "lat": 48.7596,
+    "lng": -113.7870,
+    "description": "Known for its stunning mountain landscapes and wildlife.",
+    "state": "Montana"
+  },
+  {
+    "id": 9,
+    "name": "Olympic National Park",
+    "lat": 47.8021,
+    "lng": -123.6044,
+    "description": "Known for its diverse ecosystems, from coastal beaches to temperate rainforests.",
+    "state": "Washington"
+  },
+  {
+    "id": 10,
+    "name": "Everglades National Park",
+    "lat": 25.2866,
+    "lng": -80.8987,
+    "description": "Famous for its vast wetlands and rich biodiversity.",
+    "state": "Florida"
+  },
+  {
+    "id": 11,
+    "name": "Mount Rainier National Park",
+    "lat": 46.8796,
+    "lng": -121.7269,
+    "description": "Famous for its glaciers, wildflower meadows, and the iconic Mount Rainier.",
+    "state": "Washington"
+  },
+  {
+    "id": 12,
+    "name": "Badlands National Park",
+    "lat": 43.75,
+    "lng": -102.5,
+    "description": "Known for its dramatic landscapes and rich fossil beds.",
+    "state": "South Dakota"
+  },
+  {
+    "id": 13,
+    "name": "Denali National Park",
+    "lat": 63.3251,
+    "lng": -150.1014,
+    "description": "Home to North America's tallest peak, Mount Denali.",
+    "state": "Alaska"
+  },
+  {
+    "id": 14,
+    "name": "Canyonlands National Park",
+    "lat": 38.3269,
+    "lng": -109.8787,
+    "description": "Known for its unique rock formations and vast canyons.",
+    "state": "Utah"
+  },
+  {
+    "id": 15,
+    "name": "Joshua Tree National Park",
+    "lat": 33.8734,
+    "lng": -115.9010,
+    "description": "Known for its iconic Joshua Trees and desert landscapes.",
+    "state": "California"
+  },
+  {
+    "id": 16,
+    "name": "Arches National Park",
+    "lat": 38.7331,
+    "lng": -109.5925,
+    "description": "Famous for its stunning natural sandstone arches.",
+    "state": "Utah"
+  },
+  {
+    "id": 17,
+    "name": "Bryce Canyon National Park",
+    "lat": 37.5930,
+    "lng": -112.1871,
+    "description": "Known for its unique hoodoos and dramatic rock formations.",
+    "state": "Utah"
+  },
+  {
+    "id": 18,
+    "name": "Hawai'i Volcanoes National Park",
+    "lat": 19.4194,
+    "lng": -155.2833,
+    "description": "Home to active volcanoes, including Kīlauea and Mauna Loa.",
+    "state": "Hawaii"
+  },
+  {
+    "id": 19,
+    "name": "Shenandoah National Park",
+    "lat": 38.2928,
+    "lng": -78.6763,
+    "description": "Known for its scenic Skyline Drive and rolling mountains.",
+    "state": "Virginia"
+  },
+  {
+    "id": 20,
+    "name": "Sequoia National Park",
+    "lat": 36.4864,
+    "lng": -118.5658,
+    "description": "Home to the largest trees in the world, the giant sequoias.",
+    "state": "California"
+  }
+]
